@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Specials Front End</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <style>
+        .border {
+            width: calc(100% - 40px);
+            height: calc(100% - 40px);
+            border: solid 1px black;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        body{
+            width: "100%"
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="border">
+        <div id="tc_webspecials"></div>
+    </div>
+
+    <script src="./bundle.js"></script>
+    <script>
+        window.tcWebSpecials_clientId = "testTemplateKurtDNE";
+        window.tcWebSpecials_carType = "NEW";
+        var webSpecial = window.wsRunner;
+        webSpecial();
+    </script>
+</body>
+
+</html>

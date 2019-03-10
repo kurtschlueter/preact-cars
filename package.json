@@ -1,0 +1,31 @@
+{
+    "name": "specials_fe",
+    "version": "1.0.0",
+    "description": "Web Specials Front End",
+    "main": "app.js",
+    "scripts": {
+        "start": "webpack-dev-server --config webpack.config.js --progress",
+        "clean": "rimraf dist",
+        "build": "npm run clean && webpack -p --progress --colors"
+    },
+    "author": "Kurt",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "=10.12.9",
+        "ts-loader": "=5.2.1",
+        "typescript": "=3.1.1",
+        "webpack": "=4.20.2",
+        "webpack-cli": "=3.1.2",
+        "webpack-dev-server": "=3.1.5"
+    },
+    "dependencies": {
+        "emotion": "=9.2.12",
+        "preact": "=8.3.1",
+        "preact-context": "^1.1.2",
+        "preact-emotion": "=9.2.12",
+        "promise-polyfill": "=8.1.0",
+        "prop-types": "=15.6.2",
+        "webfontloader": "^1.6.28",
+        "whatwg-fetch": "=3.0.0"
+    }
+}
