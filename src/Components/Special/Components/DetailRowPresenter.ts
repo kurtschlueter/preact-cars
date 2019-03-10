@@ -4,12 +4,12 @@ import { mediaQueries, TextStyleProps } from '../../../Utils/constants';
 
 export const Container = styled('div')`
     width: auto;
-    height: auto;
     display: flex;
     flex-direction: column;
     -ms-flex-pack: center;
     justify-content: center;
     padding: 10px;
+    height: 100px;
     margin-left: 0px;
 `;
 

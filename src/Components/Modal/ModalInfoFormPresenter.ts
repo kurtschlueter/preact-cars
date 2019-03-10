@@ -79,7 +79,7 @@ export const ContentSection = styled('div')`
     display: flex;
     flex-direction: column;
     width: auto;
-    height: auto;
+    height: 100%;
 `;
 
 export const MainContainer = styled('div')`

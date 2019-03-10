@@ -21,11 +21,11 @@
     "dependencies": {
         "emotion": "=9.2.12",
         "preact": "=8.3.1",
-        "preact-context": "^1.1.2",
+        "preact-context": "=1.1.2",
         "preact-emotion": "=9.2.12",
         "promise-polyfill": "=8.1.0",
         "prop-types": "=15.6.2",
-        "webfontloader": "^1.6.28",
+        "webfontloader": "=1.6.28",
         "whatwg-fetch": "=3.0.0"
     }
 }
